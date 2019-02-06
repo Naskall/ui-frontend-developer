@@ -230,29 +230,33 @@ a {
     .toolbar__logo-mobile {
         display: flex;
     }
-    .toolbar__navigation{
+
+    .toolbar__navigation {
         height: 60px;
     }
-    
-    .toolbar__mobile-icons{
-        
-    ul{
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        list-style: none;
-        margin-left: 65%;
-    li{
 
-        padding: 10px;
-    }
-    }
+    .toolbar__mobile-icons {
+
+        ul {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            list-style: none;
+            margin-left: 65%;
+
+            li {
+
+                padding: 10px;
+            }
+        }
     }
 }
 
 @media (min-width: 769px) {
+
     .toolbar__toggle-button,
-    .toolbar__logo-mobile,.toolbar__mobile-icons {
+    .toolbar__logo-mobile,
+    .toolbar__mobile-icons {
         display: none;
     }
 }

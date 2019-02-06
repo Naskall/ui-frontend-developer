@@ -2,7 +2,6 @@ import React from 'react';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import './Toolbar.scss';
 
-
 const toolbar = props => (
 <header className="toolbar">
     <div className="toolbar__background">
@@ -29,45 +28,49 @@ const toolbar = props => (
             <ul>
                 <li><a href="/#">
                         <div className="toolbar__icon-search"></div>
-                    </a></li>
+                    </a>
+                </li>
                 <li><a href="/Logout">
                         <div className="toolbar__icon-logout"></div>
-                    </a></li>
+                    </a>
+                </li>
                 <li><a href="/Carrinho">
                         <div className="toolbar__icon-cart">
                             <span className="toolbar__icon-cart-text">07</span>
                         </div>
-                    </a></li>
-
+                    </a>
+                </li>
             </ul>
         </div>
 
     </div>
-        <nav className="toolbar__navigation">
-        
+    <nav className="toolbar__navigation">
+
         <div className="toolbar__toggle-button">
-            
-                <DrawerToggleButton click={props.drawerClickHandler} />
-            </div>
-            <div className="toolbar__logo-mobile"> </div>
-            <div className="toolbar__mobile-icons">
+
+            <DrawerToggleButton click={props.drawerClickHandler} />
+        </div>
+        <div className="toolbar__logo-mobile"> </div>
+        <div className="toolbar__mobile-icons">
             <ul>
                 <li><a href="/#">
                         <div className="toolbar__icon-search"></div>
-                    </a></li>
+                    </a>
+                </li>
                 <li><a href="/Logout">
                         <div className="toolbar__icon-logout"></div>
-                    </a></li>
+                    </a>
+                </li>
                 <li><a href="/Carrinho">
                         <div className="toolbar__icon-cart">
                             <span className="toolbar__icon-cart-text">07</span>
                         </div>
-                    </a></li>
+                    </a>
+                </li>
 
             </ul>
         </div>
-            <div className="toolbar__container">
-            
+        <div className="toolbar__container">
             <div className="toolbar__navigation-items">
                 <ul>
                     <li><a href="/Rosto">Rosto</a></li>
@@ -77,8 +80,7 @@ const toolbar = props => (
                     <li><a href="/Acessorios">Acessórios</a></li>
                     <li><a href="/KitsPresentes">Kits e Presentes</a></li>
                 </ul>
-                    <div className="toolbar__logo"> </div>
-                    
+                <div className="toolbar__logo"> </div>
             </div>
         </div>
     </nav>
