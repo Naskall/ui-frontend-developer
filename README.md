@@ -8,4 +8,5 @@ me preocupei também em fazer a parte mobile e testar em meu próprio smartphone
 Considerando que ja tenha o NPM instalado e ja foi efetuado o clone ou o download dos arquivos, basta entrar na pasta raiz do projeto através do terminal/cmd e utilizar os seguintes comandos:
 
 npm install (Ele irá instalar todas as dependências necessárias para o funcionamento do projeto)
+
 npm start (O npm iniciará um servidor local e abrirá automaticamente o navegador padrão escolhido pelo usuário)
